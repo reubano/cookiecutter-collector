@@ -30,34 +30,32 @@ The default way to use ScrapeWiki is to store data in a SQLite database named
 features such as an interactive SQL querier, an html table view with filters,
 API endpoints for making remote SQL queries, etc.
 
-The folder structure is as follows:
+The folder structure is as follows::
 
-```
-collector-skeleton
-     +----LICENSE
-     +----Makefile
-     +----README.md
-     +----app
-     |    +----__init__.py
-     |    +----models.py
-     |    +----utils.py
-     +----bin
-     |    +----check-stage
-     |    +----upload
-     |    +----setup
-     +----config.py
-     +----dev-requirements.txt
-     +----http
-     |    +----index.html
-     +----manage.py
-     +----requirements.txt
-     +----setup.cfg
-     +----setup.py
-     +----tests
-          +----__init__.py
-          +----standard.rc
-          +----test.sh
-```
+    collector-skeleton
+        +---LICENSE
+        +---Makefile
+        +---README.md
+        +---app
+        |   +---__init__.py
+        |   +---models.py
+        |   +---utils.py
+        +---bin
+        |   +---check-stage
+        |   +---upload
+        |   +---setup
+        +---config.py
+        +---dev-requirements.txt
+        +---http
+        |   +---index.html
+        +---manage.py
+        +---requirements.txt
+        +---setup.cfg
+        +---setup.py
+        +---tests
+            +---__init__.py
+            +---standard.rc
+            +---test.sh
 
 * `manage.py` Contains the main script commands.
 * `config.py` Contains the configuration settings.
