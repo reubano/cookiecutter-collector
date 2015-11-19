@@ -77,9 +77,9 @@ I will glady accept pull requests if they improve the collector development expe
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _ScraperWiki: http://scraperwiki.com/
 .. _`official documentation`: https://scraperwiki.com/help
-.. _`config.py`: config.py
-.. _`app/utils.py`: app/utils.py
-.. _`app/models.py`: app/models.py
+.. _`config.py`: {{cookiecutter.project_name}}/config.py
+.. _`app/utils.py`: {{cookiecutter.project_name}}/app/utils.py
+.. _`app/models.py`: {{cookiecutter.project_name}}/app/models.py
 .. _Travis-CI: http://travis-ci.org/
 .. _`reubano/hdxscraper-acled`: https://github.com/reubano/hdxscraper-acled
 .. _`reubano/hdxscraper-fao`: https://github.com/reubano/hdxscraper-fao
