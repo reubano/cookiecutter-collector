@@ -57,10 +57,10 @@ The folder structure is as follows::
             +---standard.rc
             +---test.sh
 
-* :code:`manage.py` Contains the main script commands.
-* :code:`config.py` Contains the configuration settings.
-* :code:`http` Generally contains an `index.html` file with the summary of the scraping task and any other files that are intended to be available through an API endpoint, such as a `log.txt` file.
-* :code:`app` Contains the collector model and initialization.
+* :code:`manage.py` contains the main script commands.
+* :code:`config.py` contains the configuration settings.
+* :code:`http` generally contains an `index.html` file with the summary of the scraping task and any other files that are intended to be available through an API endpoint, such as a `log.txt` file.
+* :code:`app` contains the collector model and initialization.
 
 Looking for collector examples?
 -------------------------------
